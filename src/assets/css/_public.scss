@@ -1,0 +1,93 @@
+
+//时间选择
+.p_date {
+
+  //  width: 330px !important;
+  border: none;
+  .el-input__prefix {
+    right: 5px;
+    left: inherit;
+    i {
+      line-height: inherit;
+    }
+  }
+  .el-input--mini {
+    height: 30px;
+  }
+
+
+  .el-input__suffix {
+    right: 22px;
+    .el-input__icon {
+      line-height: 12px;
+    }
+  }
+  & > .el-input__inner {
+    padding-left: 10px;
+    height: 30px;
+    background: #fafbff;
+    border-radius: 5px;
+    border: 1px solid #c2c4cc;
+    box-sizing: border-box;
+  }
+}
+//时间日期
+.p_time{
+  //          width: 135px !important;
+  .el-input__suffix{
+    right:22px;
+    .el-input__icon{
+      line-height: 12px;
+    }
+  }
+}
+.latest-info-wrap{
+  .el-input__icon{line-height:26px;}
+}
+table {
+  tr {
+    height: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid #ebebeb;
+  }
+
+  tr th {
+    background: #889eb9;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    height: 36px;
+  }
+
+  tr td {
+    box-sizing: border-box;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+  }
+
+  tbody tr td{
+    font-size: 12px;
+  }
+
+  tr:hover td {
+    background: #ebebeb;
+    border-right: none;
+    border-left: none;
+  }
+
+  tr:nth-child(odd) {
+    background: #fafafa;
+  }
+
+  tr:nth-child(even) {
+    background: #ffffff;
+  }
+}
+
+
+
+.cont-wrapper-important{
+  height: auto!important;
+  min-height: calc(100vh - 76px -64px);
+}
